@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components{
+    body{
+        @apply bg-background text-textColor;
+    }
+    img{
+        @apply w-full h-full
+    }
+
+    /* Nav */
+    .nav-item{
+        @apply relative p-0.5 font-semibold before:hidden lg:before:block before:absolute before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:h-0.5 before:w-0 before:bg-primaryColor hover:before:w-full before:transition-all before:ease-in before:duration-200;
+    }
+
+
+    /* Buttons */
+    .primary-btn{
+        @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-primaryColor border-2 border-primaryColor rounded-xl;
+    }
+
+    .secondary-btn{
+        @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-transparent border-2 border-primaryColor rounded-xl;
+    }
+    
+    .loader{
+        @apply flex items-center gap-4 before:h-5 before:w-5 before:border-4 before:border-gray-100/50 before:border-b-inherit before:border-l-inherit before:rounded-full before:animate-spin
+    }
+}
