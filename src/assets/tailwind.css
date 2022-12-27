@@ -20,11 +20,11 @@
 
     /* Buttons */
     .primary-btn{
-        @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-primaryColor border-2 border-primaryColor rounded-xl;
+        @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-primaryColor border-2 border-primaryColor rounded-2xl;
     }
 
     .secondary-btn{
-        @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-transparent border-2 border-primaryColor rounded-xl;
+        @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-transparent border-2 border-primaryColor rounded-2xl;
     }
     
     .loader{
