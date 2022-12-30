@@ -12,9 +12,17 @@ const routes = [
   {
     path: '/sign-up',
     name: 'sign-up',
-    component: ()=>import(/* webpackChunkName: "homeview" */ '../views/SignUpView.vue'),
+    component: ()=>import(/* webpackChunkName: "signup" */ '../views/SignUpView.vue'),
     meta: {
       title: 'Create Account'
+    }
+  },
+  {
+    path: '/connect-wallet',
+    name: 'connect-wallet',
+    component: ()=>import(/* webpackChunkName: "connectwallet" */ '../views/ConnectWallet.vue'),
+    meta: {
+      title: 'Connect Wallet'
     }
   },
   {

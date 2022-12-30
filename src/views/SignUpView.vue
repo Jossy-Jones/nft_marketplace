@@ -18,7 +18,7 @@ export default {
 
 <template>
     <section class="relative">
-        <div class="grid md:grid-cols-2 lg:pb-16">
+        <div class="grid md:grid-cols-2">
             <div class="max-h-[43rem]">
                 <picture>
                     <source media="(min-width: 800px)" srcset="@/assets/img/Create_Account_Screen=Tablet.png">
