@@ -66,7 +66,7 @@ export default {
               <router-link to="/" class="nav-item">Connect a wallet</router-link>
             </li>
             <li class="">
-              <router-link to="" class="primary-btn">
+              <router-link to="/sign-up" class="primary-btn">
                 <UserIcon/>
                 Sign up
               </router-link>
@@ -79,7 +79,7 @@ export default {
         <router-link to="/" class="nav-item">Marketplace</router-link>
         <router-link to="/" class="nav-item">Rankings</router-link>
         <router-link to="/" class="nav-item">Connect a wallet</router-link>
-        <router-link to="" class="primary-btn">
+        <router-link to="/sign-up" class="primary-btn">
           <UserIcon/>
           Sign up
         </router-link>

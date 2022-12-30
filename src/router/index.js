@@ -5,6 +5,17 @@ const routes = [
     path: '/',
     name: 'home',
     component: ()=>import(/* webpackChunkName: "homeview" */ '../views/HomeView.vue'),
+    meta: {
+      title: "Home",
+    }
+  },
+  {
+    path: '/sign-up',
+    name: 'sign-up',
+    component: ()=>import(/* webpackChunkName: "homeview" */ '../views/SignUpView.vue'),
+    meta: {
+      title: 'Create Account'
+    }
   },
   {
     path: '/about',
