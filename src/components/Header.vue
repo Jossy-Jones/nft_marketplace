@@ -63,10 +63,10 @@ export default {
               <router-link to="/" class="nav-item">Rankings</router-link>
             </li>
             <li class="">
-              <router-link to="/" class="nav-item">Connect a wallet</router-link>
+              <router-link to="/connect-wallet" class="nav-item">Connect a wallet</router-link>
             </li>
             <li class="">
-              <router-link to="" class="primary-btn">
+              <router-link to="/sign-up" class="primary-btn">
                 <UserIcon/>
                 Sign up
               </router-link>
@@ -78,8 +78,8 @@ export default {
       <div v-else class="hidden lg:flex items-center gap-4 md:gap-8 text-white">
         <router-link to="/" class="nav-item">Marketplace</router-link>
         <router-link to="/" class="nav-item">Rankings</router-link>
-        <router-link to="/" class="nav-item">Connect a wallet</router-link>
-        <router-link to="" class="primary-btn">
+        <router-link to="/connect-wallet" class="nav-item">Connect a wallet</router-link>
+        <router-link to="/sign-up" class="primary-btn">
           <UserIcon/>
           Sign up
         </router-link>

@@ -6,7 +6,12 @@ export default {
   components: {
     AppHeader,
     AppFooter,
-  }
+  },
+  watch: {
+    $route(to) {
+      document.title = `NFT Marketplace - ${to.meta.title}`;
+    }
+  },
 }
 </script>
 

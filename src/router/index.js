@@ -5,6 +5,25 @@ const routes = [
     path: '/',
     name: 'home',
     component: ()=>import(/* webpackChunkName: "homeview" */ '../views/HomeView.vue'),
+    meta: {
+      title: "Home",
+    }
+  },
+  {
+    path: '/sign-up',
+    name: 'sign-up',
+    component: ()=>import(/* webpackChunkName: "signup" */ '../views/SignUpView.vue'),
+    meta: {
+      title: 'Create Account'
+    }
+  },
+  {
+    path: '/connect-wallet',
+    name: 'connect-wallet',
+    component: ()=>import(/* webpackChunkName: "connectwallet" */ '../views/ConnectWallet.vue'),
+    meta: {
+      title: 'Connect Wallet'
+    }
   },
   {
     path: '/about',

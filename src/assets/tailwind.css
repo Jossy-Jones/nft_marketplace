@@ -69,4 +69,13 @@
     input{
         @apply bg-transparent w-full focus:outline-none text-inherit px-6 py-2
     }
+    input[type=submit]{
+        @apply cursor-pointer;
+    }
+    .form-input{
+        @apply inline-block w-full px-6 py-3 text-black bg-white rounded-2xl;
+    }
+    .form-input input{
+        @apply p-0
+    }
 }
