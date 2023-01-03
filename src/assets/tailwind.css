@@ -4,14 +4,16 @@
 
 @tailwind utilities;
 
-@layer components{
-    body{
+@layer components {
+    body {
         @apply bg-background text-textColor;
     }
-    img{
+
+    img {
         @apply w-full h-full object-cover;
     }
-    .highlight-cover{
+
+    .highlight-cover {
         position: absolute;
         top: 0;
         left: 0;
@@ -19,7 +21,8 @@
         width: 100%;
         pointer-events: none;
     }
-    .highlight-cover:after{
+
+    .highlight-cover:after {
         content: "";
         position: absolute;
         top: 0;
@@ -31,55 +34,58 @@
     }
 
     /* Nav */
-    .nav-item{
+    .nav-item {
         @apply relative p-0.5 font-semibold before:absolute before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:h-0.5 before:w-0 before:bg-inherit hover:before:w-full focus:before:w-full before:transition-all before:ease-in before:duration-200;
     }
 
-    .nav-item.active{
+    .nav-item.active {
         @apply before:w-full
     }
 
-    .nav-mobile{
+    .nav-mobile {
         @apply hover:text-primaryColor transition-all ease-in duration-200;
     }
 
-    .nav-mobile.active{
+    .nav-mobile.active {
         @apply text-primaryColor;
     }
 
 
     /* Buttons */
-    .primary-btn{
+    .primary-btn {
         @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-primaryColor border-2 border-primaryColor rounded-2xl;
     }
 
-    .primary-btn > *{
+    .primary-btn>* {
         @apply shrink-0;
     }
 
-    .secondary-btn{
+    .secondary-btn {
         @apply w-fit inline-flex items-center justify-center gap-3 py-3 px-8 font-bold truncate text-textColor bg-transparent border-2 border-primaryColor rounded-2xl;
     }
 
-    .secondary-btn > *{
+    .secondary-btn>* {
         @apply shrink-0;
     }
-    
-    .loader{
+
+    .loader {
         @apply flex items-center gap-4 before:h-5 before:w-5 before:border-4 before:border-gray-100/50 before:border-b-inherit before:border-l-inherit before:rounded-full before:animate-spin
     }
 
     /* Forms */
-    input{
+    input {
         @apply bg-transparent w-full focus:outline-none text-inherit px-6 py-2
     }
-    input[type=submit]{
+
+    input[type=submit] {
         @apply cursor-pointer;
     }
-    .form-input{
+
+    .form-input {
         @apply inline-block w-full px-6 py-3 text-black bg-white rounded-2xl;
     }
-    .form-input input{
+
+    .form-input input {
         @apply p-0
     }
 }

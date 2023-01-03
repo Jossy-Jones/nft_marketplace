@@ -1,5 +1,5 @@
 <template>
-    <div class="grid rounded-2xl bg-backgroundSecond overflow-hidden">
+    <router-link to="/nft-page" class="grid rounded-2xl bg-backgroundSecond overflow-hidden">
         <div class="w-full h-80">
             <img :src="`/img/NFTs/${nftData.image}`" :alt="nftData.name" />
         </div>
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </router-link>
 </template>
 
 <script>
