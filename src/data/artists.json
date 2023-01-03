@@ -4,73 +4,109 @@
             "id": "01",
             "name": "Keepitreal",
             "image": "Artist-01.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "02",
             "name": "DigiLab",
             "image": "Artist-02.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "03",
             "name": "GravityOne",
             "image": "Artist-03.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "04",
             "name": "Juanie",
             "image": "Artist-04.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "05",
             "name": "BlueWhale",
             "image": "Artist-05.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "06",
             "name": "Mr Fox",
             "image": "Artist-06.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "07",
             "name": "Shroomie",
             "image": "Artist-07.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "08",
             "name": "Robotica",
             "image": "Artist-08.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "09",
             "name": "RustyRobot",
             "image": "Artist-09.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "10",
             "name": "AnimaKid",
             "image": "Artist-10.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "11",
             "name": "Dotgu",
             "image": "Artist-11.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           },
           {
             "id": "12",
             "name": "Ghiblier",
             "image": "Artist-12.png",
-            "sales": 34.53
+            "sales": 34.53,
+            "sold": 602,
+            "volume": 12.4,
+            "change": 1.41
           }
     ]
 }

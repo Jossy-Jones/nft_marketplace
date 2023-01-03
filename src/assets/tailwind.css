@@ -32,15 +32,19 @@
 
     /* Nav */
     .nav-item{
-        @apply relative p-0.5 font-semibold before:hidden lg:before:block before:absolute before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:h-0.5 before:w-0 before:bg-primaryColor hover:before:w-full before:transition-all before:ease-in before:duration-200;
+        @apply relative p-0.5 font-semibold before:absolute before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:h-0.5 before:w-0 before:bg-inherit hover:before:w-full focus:before:w-full before:transition-all before:ease-in before:duration-200;
+    }
+
+    .nav-item.active{
+        @apply before:w-full
     }
 
     .nav-mobile{
-        @apply !block fixed top-8 left-0 w-full h-full bg-background;
+        @apply hover:text-primaryColor transition-all ease-in duration-200;
     }
 
-    .nav-mobile .nav-item{
-        @apply block
+    .nav-mobile.active{
+        @apply text-primaryColor;
     }
 
 

@@ -55,17 +55,17 @@ export default {
               <close-icon/>
             </button>
           </div>
-          <ul class="grid gap-6 place-items-center px-4 py-6">
-            <li class="">
-              <router-link to="/" class="nav-item">Marketplace</router-link>
+          <ul class="grid gap-6 place-items-center py-6" @click="toggleNav">
+            <li class="px-4">
+              <router-link to="/" class="nav-item nav-mobile" active-class="active">Marketplace</router-link>
             </li>
-            <li class="">
-              <router-link to="/" class="nav-item">Rankings</router-link>
+            <li class="px-4">
+              <router-link to="/rankings" class="nav-item nav-mobile" active-class="active">Rankings</router-link>
             </li>
-            <li class="">
-              <router-link to="/connect-wallet" class="nav-item">Connect a wallet</router-link>
+            <li class="px-4">
+              <router-link to="/connect-wallet" class="nav-item nav-mobile" active-class="active">Connect a wallet</router-link>
             </li>
-            <li class="">
+            <li class="px-4">
               <router-link to="/sign-up" class="primary-btn">
                 <UserIcon/>
                 Sign up
@@ -76,9 +76,9 @@ export default {
       </template>
       <!-- Desktop Navigation -->
       <div v-else class="hidden lg:flex items-center gap-4 md:gap-8 text-white">
-        <router-link to="/" class="nav-item">Marketplace</router-link>
-        <router-link to="/" class="nav-item">Rankings</router-link>
-        <router-link to="/connect-wallet" class="nav-item">Connect a wallet</router-link>
+        <router-link to="/" class="nav-item before:bg-primaryColor" active-class="active">Marketplace</router-link>
+        <router-link to="/rankings" class="nav-item before:bg-primaryColor" active-class="active">Rankings</router-link>
+        <router-link to="/connect-wallet" class="nav-item before:bg-primaryColor" active-class="active">Connect a wallet</router-link>
         <router-link to="/sign-up" class="primary-btn">
           <UserIcon/>
           Sign up

@@ -48,7 +48,7 @@ export default {
                     </div>
                     <div class="grid gap-4">
                         <router-link to="/" class="">Marketplace</router-link>
-                        <router-link to="/" class="">Rankings</router-link>
+                        <router-link to="/rankings" class="">Rankings</router-link>
                         <router-link to="/connect-wallet" class="">Connect a wallet</router-link>
                     </div>
                 </div>

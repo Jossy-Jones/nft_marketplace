@@ -199,10 +199,10 @@ export default {
             <h1 class="text-4xl font-bold">Top Creators</h1>
             <p class="text-xl">Checkout our top rated creators on the NFT marketplace</p>
           </div>
-          <app-button :type="'secondary-btn'">
+          <router-link to="/rankings" class="secondary-btn">
             <rocket-icon class="text-primaryColor" />
             <span>View Rankings</span>
-          </app-button>
+          </router-link>
         </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <artist-card v-for="(artist, index) in artists" :key="index" :artistData="artist" ranking />
