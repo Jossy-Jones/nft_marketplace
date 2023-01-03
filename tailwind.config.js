@@ -9,6 +9,7 @@ module.exports = {
         backgroundSecond: '#3B3B3B',
         labelText: '#858584',
         textColor: '#FFFFFF',
+        success: '#00AC4F',
       },
     },
   },

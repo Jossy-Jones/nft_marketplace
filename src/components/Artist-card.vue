@@ -13,7 +13,7 @@ export default {
     data(){
         return{
             rank: parseInt(this.artistData.id),
-            profilePic: `../img/artists/${this.artistData.image}`,
+            profilePic: `/img/artists/${this.artistData.image}`,
         }
     }
 }
