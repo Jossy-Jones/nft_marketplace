@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Magic Mushroom 0325",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Magic_Mushroom_0325.png",
+            "artist": {
+                "name": "Shroomie",
+                "image": "Shroomie.png"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Happy Robot 032",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Happy_Robot_032.png",
+            "artist": {
+                "name": "BeKind2Robots",
+                "image": "BeKind2Robots.png"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Happy Robot 024",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Happy_Robot_024.png",
+            "artist": {
+                "name": "BeKind2Robots",
+                "image": "BeKind2Robots.png"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Designer Bear",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Designer_Bear.png",
+            "artist": {
+                "name": "Mr Fox",
+                "image": "Mr_Fox.png"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Colorful Dog 0356",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Colorful_Dog_0356.png",
+            "artist": {
+                "name": "Keepitreal",
+                "image": "Keepitreal.png"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Dancing Robot 0312",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Dancing_Robot_0312.png",
+            "artist": {
+                "name": "Robotica",
+                "image": "Robotica.png"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Cherry Blossom Girl 035",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Cherry_Blossom_Girl_035.png",
+            "artist": {
+                "name": "MoonDancer",
+                "image": "MoonDancer.png"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Space Travel",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Space_Travel.png",
+            "artist": {
+                "name": "NebulaKid",
+                "image": "NebulaKid.png"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Sunset Dimension",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Sunset_Dimension.png",
+            "artist": {
+                "name": "AnimaKid",
+                "image": "AnimaKid.png"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Desert Walk",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Desert_Walk.png",
+            "artist": {
+                "name": "Catch 22",
+                "image": "Catch_22.png"
+            }
+        },
+        {
+            "id": 11,
+            "name": "IceCream Ape 0324",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "IceCream_Ape_0324.png",
+            "artist": {
+                "name": "Ice Ape Club",
+                "image": "Ice_Ape_Club.png"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Colorful Dog 0344",
+            "price": 1.63,
+            "highest_bid": 0.33,
+            "image": "Colorful_Dog_0344.png",
+            "artist": {
+                "name": "PuppyPower",
+                "image": "PuppyPower.png"
+            }
+        }
+    ]
+}

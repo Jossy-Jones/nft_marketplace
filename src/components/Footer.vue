@@ -47,9 +47,9 @@ export default {
                         <h1 class="text-2xl font-bold">Explore</h1>
                     </div>
                     <div class="grid gap-4">
-                        <router-link to="/" class="">Marketplace</router-link>
-                        <router-link to="/rankings" class="">Rankings</router-link>
-                        <router-link to="/connect-wallet" class="">Connect a wallet</router-link>
+                        <router-link to="/marketplace" class="hover:text-primaryColor transistion delay-200 ease-in">Marketplace</router-link>
+                        <router-link to="/rankings" class="hover:text-primaryColor transistion delay-200 ease-in">Rankings</router-link>
+                        <router-link to="/connect-wallet" class="hover:text-primaryColor transistion delay-200 ease-in">Connect a wallet</router-link>
                     </div>
                 </div>
 

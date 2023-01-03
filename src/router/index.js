@@ -34,6 +34,14 @@ const routes = [
     }
   },
   {
+    path: '/marketplace',
+    name: 'marketplace',
+    component: ()=>import(/* webpackChunkName: "rankings" */ '../views/Marketplace.vue'),
+    meta: {
+      title: 'Marketplace'
+    }
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

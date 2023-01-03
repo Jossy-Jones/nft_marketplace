@@ -125,9 +125,9 @@ export default {
               <!-- Avatar -->
               <div class="flex items-center gap-3">
                 <div class="inline-block w-8 h-8 rounded-full">
-                  <img src="/img/Avatars/MrFox.png" />
+                  <img src="/img/Avatars/Mr_Fox.png" />
                 </div>
-                <p>MrFox</p>
+                <p>Mr Fox</p>
               </div>
             </div>
           </div>
@@ -306,40 +306,40 @@ export default {
             <h1 class="text-4xl font-bold">Discover More NFTs</h1>
             <p class="text-xl">Explore new trending NFTs</p>
           </div>
-          <app-button :type="'secondary-btn'">
+          <router-link to="/marketplace" class="secondary-btn">
             <eye-icon class="text-primaryColor" />
             <span>See All</span>
-          </app-button>
+          </router-link>
         </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <nft-card :nftData="{
             name: 'Distant Galaxy',
             price: 1.63,
             highest_bid: 0.33,
-            image: '/img/NFTs/Distant_Galaxy.png',
+            image: 'Distant_Galaxy.png',
             artist: {
               name: 'MoonDancer',
-              image: '/img/Avatars/MoonDancer.png'
+              image: 'MoonDancer.png'
             }
           }" />
           <nft-card :nftData="{
             name: 'Life On Edena',
             price: 1.63,
             highest_bid: 0.33,
-            image: '/img/NFTs/Life_On_Edena.png',
+            image: 'Life_On_Edena.png',
             artist: {
               name: 'NebulaKid',
-              image: '/img/Avatars/NebulaKid.png'
+              image: 'NebulaKid.png'
             }
           }" />
           <nft-card class="hidden lg:block" :nftData="{
             name: 'AstroFiction',
             price: 1.63,
             highest_bid: 0.33,
-            image: '/img/NFTs/AstroFiction.png',
+            image: 'AstroFiction.png',
             artist: {
               name: 'Spaceone',
-              image: '/img/Avatars/Spaceone.png'
+              image: 'Spaceone.png'
             }
           }" />
         </div>

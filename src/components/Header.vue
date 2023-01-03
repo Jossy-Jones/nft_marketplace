@@ -48,7 +48,7 @@ export default {
         </div>
         <div :class="['fixed top-0 w-screen h-screen bg-background z-20 transition-all ease-in duration-200 overflow-y-auto', openNav ? 'left-0' : 'left-full']">
           <div class="flex items-center justify-between gap-8 p-4 border-b-2 border-backgroundSecond">
-            <router-link to="/" class="inline-block w-48">
+            <router-link to="/" class="inline-block w-48" @click="toggleNav">
               <img src="@/assets/img/Logo.png"/>
             </router-link>
             <button class="inline-block p-0.5 border rounded-full" @click="toggleNav">
@@ -57,7 +57,7 @@ export default {
           </div>
           <ul class="grid gap-6 place-items-center py-6" @click="toggleNav">
             <li class="px-4">
-              <router-link to="/" class="nav-item nav-mobile" active-class="active">Marketplace</router-link>
+              <router-link to="/marketplace" class="nav-item nav-mobile" active-class="active">Marketplace</router-link>
             </li>
             <li class="px-4">
               <router-link to="/rankings" class="nav-item nav-mobile" active-class="active">Rankings</router-link>
@@ -76,7 +76,7 @@ export default {
       </template>
       <!-- Desktop Navigation -->
       <div v-else class="hidden lg:flex items-center gap-4 md:gap-8 text-white">
-        <router-link to="/" class="nav-item before:bg-primaryColor" active-class="active">Marketplace</router-link>
+        <router-link to="/marketplace" class="nav-item before:bg-primaryColor" active-class="active">Marketplace</router-link>
         <router-link to="/rankings" class="nav-item before:bg-primaryColor" active-class="active">Rankings</router-link>
         <router-link to="/connect-wallet" class="nav-item before:bg-primaryColor" active-class="active">Connect a wallet</router-link>
         <router-link to="/sign-up" class="primary-btn">
